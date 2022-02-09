@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+
+</head>
+
+<body>
+    <script>
+        var metros
+        metros = prompt('Ingrese la distancia en metros:', '')
+
+        metros = parseInt(metros)
+
+        if (metros <= 999) {
+            document.write('pie')
+        }
+        if (metros > 999 && metros <= 9999) {
+            document.write('bicicleta')
+        }
+        if (metros > 9999 && metros <= 29999) {
+            document.write('colectivo')
+        }
+        if (metros > 29999 && metros <= 99999) {
+            document.write('auto')
+        }
+            if (metros > 99999) {
+                document.write('avion')
+        }
+    </script>
+</body>
+
+</html>
